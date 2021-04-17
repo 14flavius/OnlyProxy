@@ -25,10 +25,10 @@ public class System
   extends JavaPlugin implements Listener {
   HashMap<Player, Boolean> canJoin = new HashMap<>();
 
-  public void onEnable() {
+  public void onEnable() { 
     File folder = new File(getDataFolder().getPath());
     
-    // New comment
+    // New comment / Branch New Idea
     File config = new File(getDataFolder(), "config.yml");
     if (!config.exists()) {
       if (!folder.exists()) {
