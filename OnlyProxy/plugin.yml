@@ -1,0 +1,9 @@
+main: dev.flavius.onlyproxy.System
+name: OnlyProxy
+version: v1.0
+author: Flavius
+commands:
+  opjreload:
+    permissions: 0pj.reload
+    description: Reload config
+    default: op
