@@ -27,6 +27,8 @@ public class System
 
   public void onEnable() {
     File folder = new File(getDataFolder().getPath());
+    
+    // New comment
     File config = new File(getDataFolder(), "config.yml");
     if (!config.exists()) {
       if (!folder.exists()) {
